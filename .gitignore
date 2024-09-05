@@ -1,0 +1,11 @@
+cache_dir
+.env
+.venv
+__pycache__
+poetry.lock
+floresp-v2.0-rc.3
+*cache
+wmt
+outputs
+my_project/
+tmp/
