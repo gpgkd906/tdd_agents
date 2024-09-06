@@ -44,8 +44,8 @@ install ollama from [here](https://ollama.com/)
 then download the model and run it as follows:
 
 ```bash
-ollama pull llama3.1:8b
-ollama run llama3.1:8b
+ollama pull llama3:8b
+ollama run llama3:8b
 ```
 
 then ollama will host a restful API at http://localhost:11434
