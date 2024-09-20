@@ -2,6 +2,10 @@
 
 - [English](README.md)｜[中文](README.zh.md)｜[日本語](README.ja.md)
 
+## Demo
+
+![demo](./render1726814437171.gif)
+
 ## Getting Started
 
 To get started with `tdd-agents`, follow these steps:

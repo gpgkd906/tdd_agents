@@ -1,0 +1,485 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/m018/app/agents/tdd_agents
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 166
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 46
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 20
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 302
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n"
+  - delay: 1
+    content: "\e]7;file://dsRecTypeStandard:Users-/Users/m018/app/agents/tdd_agents\a\e[?1034hdsRecTypeStandard:Users-:tdd_agents m018$ "
+  - delay: 613
+    content: p
+  - delay: 97
+    content: o
+  - delay: 36
+    content: e
+  - delay: 25
+    content: t
+  - delay: 18
+    content: r
+  - delay: 24
+    content: 'y'
+  - delay: 36
+    content: ' '
+  - delay: 28
+    content: s
+  - delay: 12
+    content: h
+  - delay: 10
+    content: e
+  - delay: 23
+    content: l
+  - delay: 16
+    content: l
+  - delay: 20
+    content: "\r\n"
+  - delay: 80
+    content: "Spawning shell within \e[34m/Users/m018/Library/Caches/pypoetry/virtualenvs/tdd-agents-tQ8DvI82-py3.10\e[39m\r\n"
+  - delay: 26
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n\e[?1034hbash-3.2$ . /Users/m018/Library/Caches/pypoetry/virtualenvs/tdd-agents-tQ8DvI82-py3.10/bin/activate\r\n"
+  - delay: 1
+    content: '(tdd-agents-py3.10) bash-3.2$ '
+  - delay: 146
+    content: p
+  - delay: 28
+    content: 'y'
+  - delay: 21
+    content: t
+  - delay: 18
+    content: h
+  - delay: 19
+    content: o
+  - delay: 19
+    content: 'n'
+  - delay: 21
+    content: ' '
+  - delay: 99
+    content: b
+  - delay: 6
+    content: i
+  - delay: 18
+    content: 'n'
+  - delay: 19
+    content: /
+  - delay: 89
+    content: t
+  - delay: 28
+    content: d
+  - delay: 18
+    content: d
+  - delay: 28
+    content: '_develop.py '
+  - delay: 39
+    content: "\r\n"
+  - delay: 253
+    content: "Checking project folder and cleaning up obsolete project files...\r\nInitial Design...\r\n"
+  - delay: 1850
+    content: "Reviewing and reflecting on the design...\r\n"
+  - delay: 1671
+    content: "Improving the design ...\r\n"
+  - delay: 2034
+    content: "Choosing the best design and verifying its completeness...\r\n"
+  - delay: 4790
+    content: "Generating Codes...\r\n"
+  - delay: 2387
+    content: "Creating project files...\r\nWrited file: my_project/src/main.rs\r\nWrited file: my_project/src/api.rs\r\nWrited file: my_project/src/websocket_service.rs\r\nWrited file: my_project/src/message_queue.rs\r\nWrited file: my_project/src/message_processor.rs\r\nWrited file: my_project/src/models.rs\r\nWrited file: my_project/src/config.rs\r\nWrited file: my_project/src/tests/api_tests.rs\r\nWrited file: my_project/src/tests/websocket_tests.rs\r\nWrited file: my_project/Cargo.toml\r\nGenerating project settings...\r\n"
+  - delay: 172
+    content: "Writed file: my_project/Cargo.toml\r\nGenerating Testing Design...\r\n"
+  - delay: 1709
+    content: "Improving Testing Design...\r\n"
+  - delay: 2462
+    content: "Updated Testing Design...\r\n"
+  - delay: 1486
+    content: "Updated README Content...\r\nLoad project documents...\r\n"
+  - delay: 126
+    content: "Load technical design document...\r\nfind test codes...\r\nAnalyze the test coverage...\r\n"
+  - delay: 1208
+    content: "Improving the testing design...\r\n"
+  - delay: 5349
+    content: "Save the improved testing design...\r\nExtracting test files...\r\n"
+  - delay: 3262
+    content: "Updating test files:\r\nUpdated test file: my_project/src/tests/unit/message_queue_tests.rs\r\nUpdated test file: my_project/src/tests/unit/message_processor_tests.rs\r\nUpdated test file: my_project/src/tests/unit/config_tests.rs\r\nUpdated test file: my_project/src/tests/integration_tests.rs\r\nUpdated test file: my_project/src/tests/api_tests.rs\r\nUpdated test file: my_project/src/tests/websocket_tests.rs\r\nQA Engineer task completed successfully.\r\nLoad technical design document...\r\n"
+  - delay: 184
+    content: "Read current code...\r\n"
+  - delay: 58
+    content: "Try to figure out the test command...\r\n"
+  - delay: 4126
+    content: "test command: cargo test src/tests/integration_tests.rs\r\nThe 1th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 50
+    content: "Analyze Result of tests...\r\n"
+  - delay: 503
+    content: "There is 8 errrors in the test results.\r\nCritical Change: 6, High Change: 0\r\nWith the test results, attempt to refactor the code...\r\n"
+  - delay: 2263
+    content: "Writed file: my_project/src/websocket_service.rs\r\n"
+  - delay: 381
+    content: "Writed file: my_project/src/main.rs\r\n"
+  - delay: 161
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 2th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 685
+    content: "Analyze Result of tests...\r\n"
+  - delay: 633
+    content: "There is 10 errrors in the test results.\r\nCritical Change: 6, High Change: 3\r\nWith the test results, attempt to refactor the code...\r\n"
+  - delay: 3206
+    content: "Writed file: my_project/src/websocket_service.rs\r\n"
+  - delay: 213
+    content: "Writed file: my_project/src/main.rs\r\n"
+  - delay: 132
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 3th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 75
+    content: "Analyze Result of tests...\r\n"
+  - delay: 661
+    content: "There is 11 errrors in the test results.\r\nCritical Change: 0, High Change: 1\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 532
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 593
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 10230
+    content: "Writed file: my_project/src/websocket_service.rs\r\n"
+  - delay: 306
+    content: "Writed file: my_project/src/main.rs\r\n"
+  - delay: 157
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 4th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 10
+    content: "Analyze Result of tests...\r\n"
+  - delay: 226
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 2\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 482
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 216
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 633
+    content: "Deleted file: my_project/Cargo.toml\r\n"
+  - delay: 267
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 5th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 5
+    content: "Analyze Result of tests...\r\n"
+  - delay: 330
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 0\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 542
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 335
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 724
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\nThe 6th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 5
+    content: "Analyze Result of tests...\r\n"
+  - delay: 312
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 0\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 391
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 277
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 532
+    content: "Deleted file: my_project/Cargo.toml\r\n"
+  - delay: 234
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 7th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 5
+    content: "Analyze Result of tests...\r\n"
+  - delay: 324
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 0\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 494
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 282
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 815
+    content: "Deleted file: my_project/Cargo.toml\r\n"
+  - delay: 326
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 8th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 5
+    content: "Analyze Result of tests...\r\n"
+  - delay: 372
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 0\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 442
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 259
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 1028
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 2
+    content: "The 9th refactoring begins: \r\n"
+  - delay: 1
+    content: "Run the tests...\r\n"
+  - delay: 4
+    content: "Analyze Result of tests...\r\n"
+  - delay: 346
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 0\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 526
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 289
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 685
+    content: "Deleted file: my_project/Cargo.toml\r\n"
+  - delay: 345
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 6
+    content: "The 10th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 332
+    content: "Analyze Result of tests...\r\n"
+  - delay: 467
+    content: "There is 8 errrors in the test results.\r\nCritical Change: 0, High Change: 3\r\nWith the test results, attempt to refactor the code...\r\n"
+  - delay: 3260
+    content: "Writed file: my_project/src/websocket_service.rs\r\n"
+  - delay: 212
+    content: "Writed file: my_project/src/main.rs\r\n"
+  - delay: 207
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 11th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 20
+    content: "Analyze Result of tests...\r\n"
+  - delay: 356
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 3\r\nWith the test results, attempt to refactor the code...\r\n"
+  - delay: 983
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 12th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 6
+    content: "Analyze Result of tests...\r\n"
+  - delay: 308
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 0\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 385
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 310
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 925
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 13th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 5
+    content: "Analyze Result of tests...\r\n"
+  - delay: 306
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 0\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 429
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 273
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 1029
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 14th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 4
+    content: "Analyze Result of tests...\r\n"
+  - delay: 361
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 0\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 412
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 293
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 850
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\nThe 15th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 4
+    content: "Analyze Result of tests...\r\n"
+  - delay: 334
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 0\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 653
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 238
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 746
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 16th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 41
+    content: "Analyze Result of tests...\r\n"
+  - delay: 657
+    content: "There is 7 errrors in the test results.\r\nCritical Change: 0, High Change: 2\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 757
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 600
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 3430
+    content: "Writed file: my_project/src/websocket_service.rs\r\n"
+  - delay: 318
+    content: "Writed file: my_project/src/main.rs\r\n"
+  - delay: 298
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 17th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 7
+    content: "Analyze Result of tests...\r\n"
+  - delay: 282
+    content: "There is 1 errrors in the test results.\r\nCritical Change: 0, High Change: 2\r\nrefactoring progress bottleneck, entering reflection mode...\r\n"
+  - delay: 1279
+    content: "with reflaction suggestions re-analyze the test results...\r\n"
+  - delay: 341
+    content: "With the test results, attempt to refactor the code...\r\n"
+  - delay: 655
+    content: "Deleted file: my_project/Cargo.toml\r\n"
+  - delay: 362
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 18th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 40
+    content: "Analyze Result of tests...\r\n"
+  - delay: 609
+    content: "There is 7 errrors in the test results.\r\nCritical Change: 2, High Change: 3\r\nWith the test results, attempt to refactor the code...\r\n"
+  - delay: 4182
+    content: "Writed file: my_project/src/websocket_service.rs\r\n"
+  - delay: 222
+    content: "Writed file: my_project/src/main.rs\r\n"
+  - delay: 261
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 19th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 45
+    content: "Analyze Result of tests...\r\n"
+  - delay: 1154
+    content: "There is 13 errrors in the test results.\r\nCritical Change: 4, High Change: 1\r\nWith the test results, attempt to refactor the code...\r\n"
+  - delay: 3198
+    content: "Writed file: my_project/src/websocket_service.rs\r\n"
+  - delay: 262
+    content: "Writed file: my_project/src/main.rs\r\n"
+  - delay: 217
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The 20th refactoring begins: \r\nRun the tests...\r\n"
+  - delay: 53
+    content: "Analyze Result of tests...\r\n"
+  - delay: 599
+    content: "There is 13 errrors in the test results.\r\nCritical Change: 4, High Change: 0\r\nWith the test results, attempt to refactor the code...\r\n"
+  - delay: 2743
+    content: "Writed file: my_project/src/websocket_service.rs\r\n"
+  - delay: 215
+    content: "Writed file: my_project/src/main.rs\r\n"
+  - delay: 267
+    content: "Writed file: my_project/Cargo.toml\r\nreload project files...\r\n"
+  - delay: 1
+    content: "The number of reconfigurations reaches the maximum of 20 and stops the reconfiguration. Please perform the refactoring task again if necessary.\r\n"
+  - delay: 10
+    content: '(tdd-agents-py3.10) bash-3.2$ '
+  - delay: 10110
+    content: "exit\r\n"
+  - delay: 20
+    content: "\e]7;file://dsRecTypeStandard:Users-/Users/m018/app/agents/tdd_agents\adsRecTypeStandard:Users-:tdd_agents m018$ "
+  - delay: 106
+    content: "logout\r\n\r\nSaving session..."
+  - delay: 4
+    content: "\r\n...copying shared history..."
+  - delay: 1
+    content: "\r\n...saving history..."
+  - delay: 1
+    content: "truncating history files...\r\n...completed.\r\n"
+  - delay: 1
+    content: Deleting expired sessions...
+  - delay: 1
+    content: "none found.\r\n"
